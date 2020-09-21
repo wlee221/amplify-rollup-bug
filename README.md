@@ -20,4 +20,4 @@ This is because `universal-cookie`' es6 module has a `require` keyword.
 var objectAssign = require('object-assign');
 ```
 
-Rollup's cjs plugin doesn't translate this `require` keyword to es syntax and hence this error.
+Because this file is already in a es6 dist, rollup's cjs plugin doesn't translate this `require` keyword to es syntax and hence this error.
