@@ -13,10 +13,10 @@ and navigate to `http://localhost:5000/`. With the latest amplify, you'll see th
 Cookies.js:5 Uncaught ReferenceError: require is not defined
 ```
 
-This is because `universal-cookie`' es6 module has a `require` keyword:
+This is because `universal-cookie`' es6 module has a `require` keyword.
 
+*` src/node_modules/universal-cookie/es6/Cookies.js`*:
 ```javascript
-// `src/node_modules/universal-cookie/es6/Cookies.js`
 var objectAssign = require('object-assign');
 ```
 
