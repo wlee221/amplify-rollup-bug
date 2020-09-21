@@ -1,4 +1,3 @@
-import update from "./update.js";
 import { Amplify, Auth } from "aws-amplify";
 Auth.configure({});
 
